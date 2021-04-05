@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.everis.becakotlinmvvm.databinding.ItemHolidayBinding
+import com.everis.becakotlinmvvm.model.HolidayModel
 
 class HolidayAdapter() : RecyclerView.Adapter<HolidayAdapter.ViewHolder>() {
 
