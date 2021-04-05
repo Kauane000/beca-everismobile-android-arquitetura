@@ -6,7 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.everis.becakotlinmvvm.HolidayViewModel
+import com.everis.becakotlinmvvm.viewModel.HolidayViewModel
 import com.everis.becakotlinmvvm.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
