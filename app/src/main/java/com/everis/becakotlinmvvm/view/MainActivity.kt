@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        initUI()
+        initHolidayUI()
 
         val holidayViewModel = HolidayViewModel()
 
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             })
     }
 
-    private fun initUI() {
+    private fun initHolidayUI() {
         binding.rvHolidayList.setHasFixedSize(true);
         val layoutManager = LinearLayoutManager(this)
         binding.rvHolidayList.layoutManager = layoutManager
